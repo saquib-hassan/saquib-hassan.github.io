@@ -1,9 +1,4 @@
-/*!
-  * Item: Willy Wonka Theme
-  * Description: Personal Portfolio Website Template
-  * Author/Developer: Sujal
-  * Version: v1
-  */
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
@@ -2562,3 +2557,62 @@ for tabs and large phones
         transition: all .4s ease;
     }
 }
+
+
+
+
+
+/* Global Styles */
+body {
+    background-color: #121212; /* Dark background for the entire page */
+    color: #e0e0e0; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+#header {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+/* Header Image Wrapper */
+.header-image-wrapper {
+    position: absolutes;
+    height: 100%;
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover /* Ensure the image covers the container */
+}
+
+/* Overlay Effect */
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    pointer-events: none; /* Ensure overlay does not capture mouse events */
+}
+
+.header-image {
+    background-image: url('images/Saquib.jpg');
+    background-size: 20%; /* Adjust this percentage as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1500px; /* Adjust height as needed */
+}
+
