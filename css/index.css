@@ -247,6 +247,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   background: rgba(255,255,255,0.01);
 }
 .empty-state .btn { margin-top: 1rem; }
+.writing-actions { margin-top: 1rem; margin-bottom: 0; }
 /* Contact */
 .contact-grid { display: grid; gap: 1.5rem; }
 .contact-card {
