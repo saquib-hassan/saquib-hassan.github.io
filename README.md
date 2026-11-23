@@ -1,27 +1,27 @@
-# Saquib Hassan's Personal Portfolio
+# Saquib Hassan — Portfolio
 
-This is the repository for Saquib Hassan's personal portfolio website. It showcases his skills, projects, and provides a way for people to get in touch with him.
+Personal portfolio website for **Saquib Hassan** (aspiring AI/ML/LLM Engineer), hosted on GitHub Pages.
 
-## Features
+- Live site: https://saquib-hassan.github.io/
+- Repository: https://github.com/saquib-hassan/saquib-hassan.github.io
 
-*   **Home:** A landing page with a brief introduction and links to social media profiles.
-*   **About:** Information about Saquib, his skills, and a downloadable resume.
-*   **Blog:** A section for blog posts.
-*   **Portfolio:** A gallery of Saquib's work and projects.
-*   **Contact:** A contact form and contact information.
+## Tech stack
 
-## Technologies Used
+- HTML5, CSS3, vanilla JavaScript
+- Google Fonts (Space Grotesk, DM Sans)
 
-*   HTML5
-*   CSS3
-*   JavaScript
-*   jQuery
-*   Particles.js
+## Local development
 
-## Original Template
+Open `index.html` in a browser. No build step is required.
 
-This portfolio is based on the "Willy Wonkas - Personal Portfolio Website Template".
+## Updating content
 
-## How to Use
+- **Projects**: edit the Projects section in `index.html` (add/remove cards, update links and status labels).
+- **Skills**: edit the Skills section in `index.html`.
+- **Resume/CV**: replace `files/Saquib_Al_Hassan_Resume.pdf` and keep the link in the About section.
+- **Profile image**: update `Saquib.JPG` (or change the reference in `index.html`).
+- **Contact info**: update the Contact section in `index.html` (keep only verified details).
 
-To view the portfolio, simply open the `index.html` file in a web browser. No special setup is required.
+## Deployment (GitHub Pages)
+
+This repo is served via GitHub Pages from the default branch (commonly `main`/`master`). Push changes to the configured branch in repository settings to publish.
